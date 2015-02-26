@@ -1,0 +1,174 @@
+#wrapper { overflow: visible; }
+body #wrapper > header {
+margin: 0 0 35px 0;
+}
+
+#bootstrap [class*="row"] > [class*="span"] > h2 {
+	margin-top: 1.5em;
+}
+
+#bootstrap .cover h1 {
+	margin-bottom:0.714em;
+}
+
+
+#bootstrap .avatar * {
+	clear: both;
+}
+
+#bootstrap .avatar img {
+	float: right;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	width: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #bbb;
+	clear: both;
+}
+#bootstrap .avatar p {
+	font-size: 1.25em;
+	color: #777;
+	text-align: right;
+}
+#bootstrap .avatar p.lead {
+	font-size: 1.75em;
+	margin-bottom: 0.25em;
+}
+#bootstrap .avatar img,
+#bootstrap .avatar p {
+  *zoom: 1;
+}
+#bootstrap .avatar img:before,
+#bootstrap .avatar img:after,
+#bootstrap .avatar p:before,
+#bootstrap .avatar p:after {
+  display: table;
+  content: "";
+}
+#bootstrap .avatar img:after,
+#bootstrap .avatar p:after {
+  clear: both;
+}
+
+
+#bootstrap .img-polaroid {
+margin-bottom:10px;
+background-color: #FFF;
+border: 1px solid #EBEBEB;
+border: 1px solid rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+	   -moz-box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+	        box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+}
+
+#bootstrap .company-video {
+padding: 4px 4px 0 4px;
+
+}
+
+
+#bootstrap .company-video,
+#bootstrap .costumer-card {
+border: 1px solid #EBEBEB;
+border: 1px solid rgba(0, 0, 0, 0.09);
+margin: 0 0 30px 0;
+	-webkit-box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+	   -moz-box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+	        box-shadow: rgba(33,33,33,0.1) 0px 0px 4px;
+}
+#bootstrap .costumer-card > figure {
+	margin:0;
+	padding:20px 20px 10px 20px;
+}
+
+#bootstrap .costumer-card > figure > img {
+	margin:0;
+}
+#bootstrap .costumer-card .inner-card {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	padding-top:25px;
+}
+#bootstrap .costumer-card figure + .inner-card {
+	padding-top:0;
+}
+#bootstrap .costumer-card .inner-card h3 {
+	font-weight: normal;
+	line-height: 1.333em;
+}
+#bootstrap .costumer-card .inner-card h3 strong {
+	font-weight: bold;
+}
+
+#bootstrap .data-case {
+
+}
+#bootstrap .data-case h1 {
+	font-size: 4.4em;
+	font-weight: 200;
+	color: #777;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+#bootstrap .data-case p {
+	margin-top: 3em;
+	font-size: 1.333em;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #555;
+	padding-bottom: 1.333em;
+}
+#bootstrap .data-case h1+p {
+	margin-top: 0;
+}
+
+#bootstrap .quote {
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	padding-top: 1.8em;
+	padding-bottom: 1.5em;
+}
+#bootstrap .quote [class*="span"] {
+}
+#bootstrap .quote [class*="span"] h2 {
+	font-size: 1.75em;
+	font-weight: 200;
+	line-height: 1.5em;
+	margin-left: 2em;
+	margin-bottom: .66em;
+	margin-top: .33em;
+}
+
+#bootstrap hr {
+	background: none;
+	width: auto;
+	height: auto;
+}
+
+
+
+#bootstrap .row.header {
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 1.5em;
+	margin-bottom: 3em;
+}
+#bootstrap .row.header p {
+	line-height: 1.6em;
+}
+#bootstrap .row.header h4 {
+	font-weight: 200;
+	margin-top: 0;
+}
+
+#bootstrap
